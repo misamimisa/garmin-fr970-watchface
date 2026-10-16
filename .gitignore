@@ -1,0 +1,15 @@
+# Connect IQ build output
+bin/
+gen/
+mir/
+internal-mir/
+*.prg
+*.iq
+*.mir
+*.mbo
+*.debug.xml
+
+# Local editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
