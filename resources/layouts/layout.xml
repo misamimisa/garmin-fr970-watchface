@@ -1,0 +1,39 @@
+<layout id="WatchFace"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+
+    <label id="DateLabel" x="125" y="89"
+           font="Graphics.FONT_SYSTEM_SMALL"
+           justification="Graphics.TEXT_JUSTIFY_CENTER"
+           color="Graphics.COLOR_LT_GRAY" />
+
+    <label id="TimeLabel" x="center" y="140"
+           font="Graphics.FONT_NUMBER_THAI_HOT"
+           justification="Graphics.TEXT_JUSTIFY_CENTER"
+           color="Graphics.COLOR_WHITE" />
+
+    <label id="BatteryLabel" x="362" y="89"
+           font="Graphics.FONT_SYSTEM_SMALL"
+           justification="Graphics.TEXT_JUSTIFY_CENTER"
+           color="Graphics.COLOR_LT_GRAY" />
+
+    <label id="WeatherLabel" x="165" y="306"
+           font="Graphics.FONT_MEDIUM"
+           justification="Graphics.TEXT_JUSTIFY_CENTER"
+           color="Graphics.COLOR_LT_GRAY" />
+
+    <label id="UvLabel" x="346" y="306"
+           font="Graphics.FONT_MEDIUM"
+           justification="Graphics.TEXT_JUSTIFY_CENTER"
+           color="Graphics.COLOR_LT_GRAY" />
+
+    <label id="AltitudeLabel" x="227" y="374"
+           font="Graphics.FONT_SYSTEM_XTINY"
+           justification="Graphics.TEXT_JUSTIFY_CENTER"
+           color="Graphics.COLOR_LT_GRAY" />
+
+    <label id="SunEventLabel" x="227" y="414"
+           font="Graphics.FONT_SYSTEM_XTINY"
+           justification="Graphics.TEXT_JUSTIFY_CENTER"
+           color="Graphics.COLOR_LT_GRAY" />
+</layout>
